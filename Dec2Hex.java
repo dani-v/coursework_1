@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-//Test
 
 class Dec2Hex
 {
