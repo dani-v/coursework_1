@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//Test automating a build with jenkins
+//Test
 
 class Dec2Hex
 {
