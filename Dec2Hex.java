@@ -1,11 +1,10 @@
-import java.util.Scanner;
+// import java.util.Scanner; 
 
 class Dec2Hex
 
-//Change to see a build being triggered
 {
 
-    public static int Arg1;
+    private static final int Arg1;
 
     public static void main(String args[]) throws Exception {
 
@@ -27,6 +26,7 @@ class Dec2Hex
         	System.err.println("No input provided. You must enter an integer argument!");
         	System.exit(0);      
         }
+
 
     	char ch[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
         int rem, num;
