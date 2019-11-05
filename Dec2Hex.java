@@ -6,7 +6,8 @@ class Dec2Hex
 
     public static int Arg1;
 
-    public static void main(String args[])throws Exception {
+    public static void main(String args[]) throws Exception {
+
         if (args.length > 0) 
         {
             try 
@@ -19,8 +20,10 @@ class Dec2Hex
                 System.exit(1);
             }
         }
-        else { 
-        	System.err.println("You must enter an integer input!");
+
+        else if (args.length == 0) {
+
+        	System.err.println("No input provided. You must enter an integer argument!");
         	System.exit(0);      
         }
 
