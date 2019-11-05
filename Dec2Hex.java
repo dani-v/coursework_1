@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 class Dec2Hex
 
+//Test
+
 {
 
     public static int Arg1;
