@@ -3,8 +3,6 @@ import java.util.Scanner;
 class Dec2Hex
 
 //Change to see a build being triggered
-//Change
-
 {
 
     public static int Arg1;
