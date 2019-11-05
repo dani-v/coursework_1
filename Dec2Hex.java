@@ -12,7 +12,7 @@ class Dec2Hex
         {
             try 
             {
-                Arg1 = Integer.parseInt(args[0]);
+                Arg = Integer.parseInt(args[0]);
             } 
             catch (NumberFormatException e) 
             {
